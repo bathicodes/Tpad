@@ -2,10 +2,6 @@ from tkinter import *
 from tkinter.filedialog import askopenfilename, asksaveasfile
 import tkinter.messagebox
 
-def nothing():
-    print("test")
-
-
 def readFile(filename):
     fr = open(filename,"r")
     text = fr.read()
