@@ -51,8 +51,8 @@ def create_window():
     textdisplay = Text(root)
     textdisplay.pack(fill=BOTH, expand=1)
 
-    status = Label(root, bg="#3c3b37", text="status", fg="white", relief=SUNKEN, anchor=W)
-    status.pack(fill=X, side=BOTTOM)
+    status = Label(root,text="status",relief=SUNKEN, anchor=W)
+    status.pack(fill = X,side=BOTTOM, padx=1)
 
     root.mainloop()
 
